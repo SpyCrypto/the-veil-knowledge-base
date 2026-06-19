@@ -1,4 +1,10 @@
 # the-veil-knowledge-base
+
+![CI](https://img.shields.io/github/actions/workflow/status/SpyCrypto/the-veil-knowledge-base/ci.yml?branch=main)
+![License](https://img.shields.io/github/license/SpyCrypto/the-veil-knowledge-base)
+![Issues](https://img.shields.io/github/issues/SpyCrypto/the-veil-knowledge-base)
+![Community](https://img.shields.io/badge/community-welcome-brightgreen)
+
 A public knowledge vault where research, frameworks, discussions, and educational resources can evolve transparently.
 
 ## About
@@ -9,15 +15,17 @@ A collaboratively maintained collection of research, frameworks, and educational
 - [STRUCTURE.md](STRUCTURE.md) — Canonical folder layout and tracking guidance.
 
 ## Table of contents
-- About
-- Contents
-- Structure & contribution guidelines
-- Quick links
-- How to contribute
-- Governance & Code of Conduct
-- Reporting issues & requesting changes
-- License & attribution
-- Contact
+- [About](#about)
+- [Contents](#contents)
+- [Structure & contribution guidelines](#structure--contribution-guidelines)
+- [Quick links](#quick-links)
+- [How to contribute](#how-to-contribute)
+- [Onboarding checklist](#onboarding-checklist)
+- [Contribution examples](#contribution-examples)
+- [Governance & Code of Conduct](#governance--code-of-conduct)
+- [Reporting issues & requesting changes](#reporting-issues--requesting-changes)
+- [License & attribution](#license--attribution)
+- [Contact](#contact)
 
 ## Structure & contribution guidelines
 This repository follows the layout and rules described in [STRUCTURE.md](STRUCTURE.md). Please read it before creating content or proposing structural changes — it explains where different types of materials belong and how to format them for discoverability.
@@ -39,8 +47,20 @@ We welcome contributions of all kinds: research notes, frameworks, multimedia, c
 
 If you're unsure where something belongs, open an issue or start a discussion in the repository.
 
+## Onboarding checklist
+- [ ] Read this README and [STRUCTURE.md](STRUCTURE.md).
+- [ ] Browse existing issues and discussions to find active work.
+- [ ] Introduce yourself in Discussions (optional) and state your interest area.
+- [ ] Create a small contribution (typo fix, document improvement) to get familiar with the flow.
+- [ ] Submit a PR and request a reviewer.
+
+## Contribution examples
+- Add a research note: place under `the-veil/research/<topic>/` with a clear filename and optional front-matter (title, author, date, tags).
+- Propose a framework: add under `the-veil/frameworks/<framework-name>/` with README, diagrams, and examples.
+- Media or assets: place logos and images under `the-veil/media/` in appropriate subfolders.
+
 ## Governance & Code of Conduct
-We aim to keep this space collaborative and respectful. See [the-veil/README.md](the-veil/README.md) and a dedicated `CODE_OF_CONDUCT.md` (if present) for detailed expectations.
+We aim to keep this space collaborative and respectful. See [the-veil/README.md](the-veil/README.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for detailed expectations.
 
 ## Reporting issues & requesting changes
 - Use Issues for bug reports, content problems, or to propose new top-level sections.
@@ -49,9 +69,11 @@ We aim to keep this space collaborative and respectful. See [the-veil/README.md]
 ## License & attribution
 If the repository contains third-party research or media, ensure proper attribution and license compatibility. If a LICENSE file exists in the repo root, follow that license; otherwise, open an issue to clarify licensing.
 
+Note: I can add a LICENSE file for you — tell me which license you prefer (MIT, Apache-2.0, CC-BY-4.0, etc.) and I will add it.
+
 ## Contact
 For governance or repository-level questions, open an issue or contact the maintainers listed in the repository.
 
 ---
 
-If you'd like a more detailed README (badges, expanded TOC, contribution templates, or an onboarding checklist), tell me which items you'd like and I will add them.
+If you'd like further changes (different badges, additional templates, or a tailored onboarding checklist), tell me which items you'd like and I will add them.
