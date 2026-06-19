@@ -48,11 +48,11 @@ We welcome contributions of all kinds: research notes, frameworks, multimedia, c
 If you're unsure where something belongs, open an issue or start a discussion in the repository.
 
 ## Onboarding checklist
-- [ ] Read this README and [STRUCTURE.md](STRUCTURE.md).
+- [ ] Read README.md and [STRUCTURE.md](STRUCTURE.md).
 - [ ] Browse existing issues and discussions to find active work.
 - [ ] Introduce yourself in Discussions (optional) and state your interest area.
-- [ ] Create a small contribution (typo fix, document improvement) to get familiar with the flow.
-- [ ] Submit a PR and request a reviewer.
+- [ ] Make a small contribution (typo fix, doc improvement) to get familiar with the flow.
+- [ ] Open a PR and request a reviewer.
 
 ## Contribution examples
 - Add a research note: place under `the-veil/research/<topic>/` with a clear filename and optional front-matter (title, author, date, tags).
@@ -68,8 +68,6 @@ We aim to keep this space collaborative and respectful. See [the-veil/README.md]
 
 ## License & attribution
 If the repository contains third-party research or media, ensure proper attribution and license compatibility. If a LICENSE file exists in the repo root, follow that license; otherwise, open an issue to clarify licensing.
-
-Note: I can add a LICENSE file for you — tell me which license you prefer (MIT, Apache-2.0, CC-BY-4.0, etc.) and I will add it.
 
 ## Contact
 For governance or repository-level questions, open an issue or contact the maintainers listed in the repository.
