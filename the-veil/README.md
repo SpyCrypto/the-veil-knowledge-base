@@ -36,6 +36,3 @@ The Veil welcomes researchers, builders, educators, and curious individuals who 
 Questions are encouraged.
 
 Dogma is not required.
-
- 
- tructure: The files and directories are placeholders to be filled with content.
