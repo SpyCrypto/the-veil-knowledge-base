@@ -1,6 +1,6 @@
 # Critical Thinking
 
-(Placeholder) Guidance and exercises to support critical thinking in research and discussion.
+Guidance and exercises to support critical thinking in research and discussion.
 
 What information exists?
 
