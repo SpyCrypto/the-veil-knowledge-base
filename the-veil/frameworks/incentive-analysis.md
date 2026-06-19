@@ -1,3 +1,13 @@
 # Incentive Analysis
 
-(Placeholder) Framework and notes for analyzing incentives.
+## System:
+
+## Participants:
+
+## Incentives: 
+
+## Behaviors: 
+
+## Outcomes:
+
+## Unintended Consequences:
