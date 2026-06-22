@@ -5,7 +5,7 @@
 ![Issues](https://img.shields.io/github/issues/SpyCrypto/the-veil-knowledge-base)
 ![Community](https://img.shields.io/badge/community-welcome-brightgreen)
 
-A public knowledge vault where research, frameworks, discussions, and educational resources can evolve transparently.
+The Veil is a public knowledge vault where research, frameworks, discussions, and educational resources can evolve transparently.
 
 ## About
 A collaboratively maintained collection of research, frameworks, and educational materials related to The Veil project. This repository is structured to make contributions discoverable, reviewable, and reusable.
@@ -73,5 +73,3 @@ If the repository contains third-party research or media, ensure proper attribut
 For governance or repository-level questions, open an issue or contact the maintainers listed in the repository.
 
 ---
-
-If you'd like further changes (different badges, additional templates, or a tailored onboarding checklist), tell me which items you'd like and I will add them.
