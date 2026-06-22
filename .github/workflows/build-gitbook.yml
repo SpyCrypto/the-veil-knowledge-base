@@ -19,19 +19,19 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
 
-      - name: Install dependencies
-        run: npm install -g gitbook-cli
+      - name: Install gitbook
+        run: |
+          npm install -g gitbook-cli
+          gitbook fetch latest
 
       - name: Build GitBook
-        run: gitbook build
+        run: gitbook build .
 
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
@@ -40,10 +40,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_book
           force_orphan: true
-
-      - name: Upload artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: gitbook-build
-          path: _book
