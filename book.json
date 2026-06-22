@@ -1,7 +1,24 @@
 {
   "title": "The Veil Knowledge Base",
-  "description": "A comprehensive knowledge base",
-  "author": "SpyCrypto",
+  "description": "A collaborative repository of research, frameworks, and educational materials for transparent, ethical, and rigorous knowledge-building.",
+  "author": "The Veil Project Community",
   "language": "en",
-  "root": "."
+  "root": ".",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "-sharing",
+    "search",
+    "github"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/SpyCrypto/the-veil-knowledge-base"
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
 }

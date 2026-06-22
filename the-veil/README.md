@@ -1,38 +1,53 @@
-# The Veil
+# The Veil Project
 
-Some things should be private.
+Welcome to The Veil Knowledge Base — a collaborative repository of research, frameworks, and educational materials.
 
-Some things should be understood.
+## Quick Navigation
 
-The Veil is an exploratory initiative focused on understanding the systems that shape technology, communities, incentives, and human behavior.
+- **[Manifesto](manifesto/manifesto.md)** — Our vision, principles, and commitment
+- **[Research](research/)** — Peer-reviewed and community research across multiple domains
+- **[Frameworks](frameworks/)** — Practical models, architectures, and tools
+- **[Community](community/)** — Case studies, resources, and discussions
+- **[Media](media/)** — Diagrams, logos, and visual assets
 
-We believe that better questions lead to better understanding.
+## For New Contributors
 
-Our mission is to encourage critical thinking, intellectual honesty, and respectful inquiry while preserving privacy and individual autonomy.
+1. Read the [Manifesto](manifesto/manifesto.md) to understand our principles
+2. Review [STRUCTURE.md](../STRUCTURE.md) for organization and naming guidelines
+3. Check [CONTRIBUTING.md](../CONTRIBUTING.md) for the contribution workflow
+4. Follow the [Code of Conduct](../CODE_OF_CONDUCT.md)
 
-## Areas of Exploration
+## Browse by Topic
 
-* Privacy
-* Governance
-* Incentive Design
-* Community Dynamics
-* Emerging Technologies
-* Artificial Intelligence
-* Decentralized Systems
-* Human Behavior
+### Research
+- [Cryptography & Security](research/cryptography/)
+- [Privacy & Surveillance](research/privacy/)
+- [Decentralization](research/decentralization/)
+- [Digital Culture & Ethics](research/digital-culture/)
 
-## Core Principles
+### Frameworks
+- [Systems Architecture](frameworks/systems-architecture/)
+- [Security Models](frameworks/security-models/)
+- [Governance Patterns](frameworks/governance-patterns/)
 
-* Curiosity Over Certainty
-* Understanding Over Tribalism
-* Privacy With Responsibility
-* Intellectual Honesty
-* Respectful Inquiry
+## How to Contribute
 
-## Participate
+We welcome:
+- Research notes and case studies
+- Framework specifications and implementations
+- Educational materials and tutorials
+- Media (diagrams, logos, infographics)
+- Translations and localization
+- Feedback and critique
 
-The Veil welcomes researchers, builders, educators, and curious individuals who want to explore ideas together.
+See [CONTRIBUTING.md](../CONTRIBUTING.md) for step-by-step instructions.
 
-Questions are encouraged.
+## Community
 
-Dogma is not required.
+- **Issues:** Questions, bug reports, or feature requests
+- **Discussions:** Open-ended conversations about research directions
+- **Pull Requests:** Submit contributions for review
+
+---
+
+*The Veil Knowledge Base is maintained by a global community of researchers, practitioners, and educators. Join us in building knowledge that is transparent, rigorous, and collaborative.*
