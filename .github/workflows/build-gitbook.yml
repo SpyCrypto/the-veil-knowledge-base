@@ -1,42 +1,40 @@
-name: Build and Deploy GitBook
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pages: write
-      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
-      - name: Install gitbook
+      - name: Build site
         run: |
-          npm install -g gitbook-cli
-          gitbook fetch latest
+          mkdir -p _site
+          cp -r . _site/
+          rm -rf _site/.git _site/.github
 
-      - name: Build GitBook
-        run: gitbook build .
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_book
-          force_orphan: true
+        id: deployment
+        uses: actions/deploy-pages@v4
